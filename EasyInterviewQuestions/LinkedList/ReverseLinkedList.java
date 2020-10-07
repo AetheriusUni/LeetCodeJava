@@ -14,8 +14,8 @@ class Solution {
         ListNode prev = null;
         // points to current node
         ListNode curr = head;
-        // points to next node
-        ListNode next = null;
+        // points to next node, is assigned a value in each iteration
+        ListNode next;
         
         while(curr!=null)
         {
