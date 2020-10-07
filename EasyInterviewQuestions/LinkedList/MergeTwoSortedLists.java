@@ -44,6 +44,6 @@ class Solution {
         
         // now that everything is done in head, dummy.next will return the correct range of values
         // since the first value in ListNode is 0 and not part of the ListNodes in this problem
-        return dummy;
+        return dummy.next;
     }
 }
